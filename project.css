@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/* start main rules */
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/* end main rules */
+/*start header*/
+.header .slider{
+    background-color: #EEE;
+    height: 600px;
+}
+.header .navbar{
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+}
+.header .navbar h2{float: left;    text-transform: uppercase;}
+.header .navbar h2 span{color: #2ecc71;}
+.header .navbar ul{
+    overflow: hidden;
+    list-style: none;
+    padding-left: 0;
+    float: right;
+}
+.header .navbar ul li{padding: 10px; float: left;}
+/*end header*/
